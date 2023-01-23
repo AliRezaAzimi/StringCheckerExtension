@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<GeneratePakcageOnBuild>true</GeneratePakcageOnBuild>
+		<PackageId>CogNet.Tools.StringCheckerExtension</PackageId>
+		<PackageVersion>0.1-beta1</PackageVersion>
+		<Title>String Checker Extension</Title>
+		<Authors>S.AliRezaAzimi</Authors>
+
+	</PropertyGroup>
+
+</Project>
