@@ -1,13 +1,36 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<GeneratePakcageOnBuild>true</GeneratePakcageOnBuild>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>CogNet.Tools.StringCheckerExtension</PackageId>
 		<PackageVersion>0.1-beta1</PackageVersion>
 		<Title>String Checker Extension</Title>
 		<Authors>S.AliRezaAzimi</Authors>
-		<
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/AliRezaAzimi/StringCheckerExtension</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes>
+			a simple extension for nuget
+		</PackageReleaseNotes>
+		<Description>
+			a class extension for string with 3 method
+		</Description>
+		<Copyright>
+			Cognitive Network 2001-2023
+		</Copyright>
+		<PackageTags>string extension Cognitive network</PackageTags>
+		<RepositoryUrl>https://github.com/AliRezaAzimi/StringCheckerExtension</RepositoryUrl>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <Content Include="icon.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="icon.png">
+			<Pack>true</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 </Project>
